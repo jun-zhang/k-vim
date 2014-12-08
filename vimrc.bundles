@@ -479,6 +479,11 @@ let g:html_indent_style1 = "inc"
 "for jquery
 Bundle 'nono/jquery.vim'
 
+Bundle 'shougo/vimproc'
+Bundle 'shougo/vimshell'
+let g:vimshell_user_prompt = 'fnamemodify(getcwd(), ":~")'
+let g:vimshell_prompt =  '$ '
+
 "###### emmet HTML complete #########
 "Bundle "mattn/emmet-vim"
 
